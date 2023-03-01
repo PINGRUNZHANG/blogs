@@ -1,0 +1,18 @@
+{
+  "name": "blogs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Zhangrunping/blogs.git",
+  "author": "zhangrunping <1204495626@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.9",
+    "vuepress-plugin-cursor-effects": "^1.1.6",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3",
+    "vuepress-theme-reco": "^1.6.17"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs"
+  }
+}
