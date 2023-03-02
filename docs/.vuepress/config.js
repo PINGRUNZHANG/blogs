@@ -1,7 +1,7 @@
 module.exports = {
+  base: '/Blogs/',
   title: 'XXX的博客',
   description: 'YYY',
-  base: '/blogs/',
   theme: 'reco',
   themeConfig: {
     subSidebar: 'auto',
