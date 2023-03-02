@@ -1,8 +1,8 @@
 {
-  "name": "Blogs",
+  "name": "blogs",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/Zhangrunping/Blogs.git",
+  "repository": "https://github.com/Zhangrunping/blogs.git",
   "author": "zhangrunping <1204495626@qq.com>",
   "license": "MIT",
   "devDependencies": {

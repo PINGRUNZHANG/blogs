@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/Blogs/',
+  base: '/blogs/',
   title: 'XXX的博客',
   description: 'YYY',
   theme: 'reco',
