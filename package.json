@@ -6,10 +6,14 @@
   "author": "zhangrunping <1204495626@qq.com>",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.9.9"
+    "vuepress": "^1.9.9",
+    "vuepress-plugin-cursor-effects": "^1.1.6"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress-theme-reco": "^1.6.17"
   }
 }
