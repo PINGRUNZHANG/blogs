@@ -1,3 +1,4 @@
+const sidebar = require('./siderbar.js');
 module.exports = {
   base: '/blogs/',
   title: 'XXX的博客',
@@ -11,19 +12,20 @@ module.exports = {
     author: 'Shark Xu',
     nav: [
       { text: '首页', link: '/' },
-      {
-        text: 'Shark Xu 的博客',
-        items: [
-          { text: '掘金', link: 'https://juejin.cn/user/233526039432445' },
-          { text: 'Github', link: 'https://github.com/Xusssyyy' },
-        ],
-      },
+      // {
+      //   text: 'Shark Xu 的博客',
+      //   items: [
+      //     { text: '掘金', link: 'https://juejin.cn/user/233526039432445' },
+      //     { text: 'Github', link: 'https://github.com/Xusssyyy' },
+      //   ],
+      // },
     ],
+    sidebar,
     // 博客配置
     blogConfig: {
       category: {
         location: 2, // 在导航栏菜单中所占的位置，默认2
-        text: '博客', // 默认文案 “分类”
+        text: '目录', // 默认文案 “分类”
       },
       tag: {
         location: 4, // 在导航栏菜单中所占的位置，默认4
